@@ -22,7 +22,7 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS = '0x5AEeDc64647270e8a84aDC95A532699F5A3F93B1' // factory contract
 
-export const INIT_CODE_HASH = '0x3dd661853964ed189fe6c617ed77a606f18b6423d4d569ab7326f0f0b4731d69' // fooswap pair init code hash
+export const INIT_CODE_HASH = '0x3dd661853964ed189fe6c617ed77a606f18b6423d4d569ab7326f0f0b4731d69' //  pair init code hash
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
