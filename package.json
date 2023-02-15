@@ -16,7 +16,6 @@
     "test": "tsdx test",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
-    "size": "size-limit",
     "analyze": "size-limit --why"
   },
   "peerDependencies": {
@@ -40,16 +39,6 @@
   "name": "manacles-sdk",
   "author": "malawadd",
   "module": "dist/manacles-sdk.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/manacles-sdk.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/manacles-sdk.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.2.4",
     "husky": "^8.0.3",
