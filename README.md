@@ -10,7 +10,7 @@ Congrats! You just saved yourself hours of work by bootstrapping this project wi
 
 TSDX scaffolds your new library inside `/src`.
 
-To run TSDX, use:
+To run TSDX:
 
 ```bash
 npm start # or yarn start
