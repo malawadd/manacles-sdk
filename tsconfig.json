@@ -35,7 +35,7 @@
 // }
 
 {
-  "include": ["src", "test"],
+  "include": ["src"],
   "compilerOptions": {
     "target": "es2018",
     "module": "esnext",
